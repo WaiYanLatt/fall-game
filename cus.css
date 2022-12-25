@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #031321;
+}
+#game{
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0 0 10px #00D2FC,0 0 40px #00D2FC,0 0 80px #00D2FC;
+}
+#character{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    top: 400px;
+    left: 190px;
+    z-index: 1000000;
+    box-shadow: 0 0 10px #34d399,0 0 40px #34d399,0 0 80px #34d399;
+}
+.block{
+    width: 400px;
+    height: 20px;
+    background-color: #00D2FC;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+    box-shadow: 0 0 10px #00D2FC,0 0 40px #00D2FC,0 0 80px #00D2FC;
+}
+.hole{
+    width: 40px;
+    height: 20px;
+    background-color:  #031321;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+    box-shadow: 0 0 10px #031321,0 0 40px #031321,0 0 80px #031321;
+}
